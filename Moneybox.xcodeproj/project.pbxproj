@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261EB11228269CC300EF8ABF /* Bond in Frameworks */ = {isa = PBXBuildFile; productRef = 261EB11128269CC300EF8ABF /* Bond */; };
+		261EB11528269D8E00EF8ABF /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = 261EB11428269D8E00EF8ABF /* Router */; };
+		261EB1172826A11100EF8ABF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1162826A11100EF8ABF /* LoginViewController.swift */; };
+		261EB1192826A14A00EF8ABF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1182826A14A00EF8ABF /* LoginViewModel.swift */; };
+		261EB11C2826B26400EF8ABF /* Property+StringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB11B2826B26400EF8ABF /* Property+StringValue.swift */; };
+		261EB1202826BBD000EF8ABF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB11F2826BBD000EF8ABF /* UserManager.swift */; };
+		261EB1232826BFDD00EF8ABF /* AuthCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1222826BFDD00EF8ABF /* AuthCredential.swift */; };
+		261EB1262826C33800EF8ABF /* UserManagingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1252826C33800EF8ABF /* UserManagingDelegate.swift */; };
+		261EB12828270CAA00EF8ABF /* Authorising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB12728270CAA00EF8ABF /* Authorising.swift */; };
+		261EB12A28270D0600EF8ABF /* OAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB12928270D0600EF8ABF /* OAuthService.swift */; };
+		261EB12C28270F8D00EF8ABF /* TokenRequestCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB12B28270F8D00EF8ABF /* TokenRequestCredential.swift */; };
+		261EB13228272A3D00EF8ABF /* TokenContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB13128272A3D00EF8ABF /* TokenContext.swift */; };
+		261EB13628272C5300EF8ABF /* TokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB13528272C5300EF8ABF /* TokenRequest.swift */; };
+		261EB13828272F7A00EF8ABF /* AuthHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB13728272F7A00EF8ABF /* AuthHeaders.swift */; };
+		261EB13A282730A900EF8ABF /* StandardHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB139282730A900EF8ABF /* StandardHeaders.swift */; };
+		261EB13C2827CC8200EF8ABF /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB13B2827CC8200EF8ABF /* AppEnvironment.swift */; };
+		261EB13E2827CCB100EF8ABF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB13D2827CCB100EF8ABF /* API.swift */; };
+		261EB1412827CD4D00EF8ABF /* PathCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1402827CD4D00EF8ABF /* PathCombine.swift */; };
+		261EB14D282805EE00EF8ABF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261EB14C282805EE00EF8ABF /* LoginViewController.xib */; };
+		261EB14F2828222800EF8ABF /* String+RegexChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB14E2828222800EF8ABF /* String+RegexChecking.swift */; };
+		261EB152282823C100EF8ABF /* NSRegularExpression+Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB151282823C100EF8ABF /* NSRegularExpression+Matches.swift */; };
+		261EB1552828246800EF8ABF /* AppRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1542828246800EF8ABF /* AppRegex.swift */; };
+		261EB1592829174A00EF8ABF /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1582829174A00EF8ABF /* Customer.swift */; };
+		261EB15B282924D900EF8ABF /* CustomerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB15A282924D900EF8ABF /* CustomerDetails.swift */; };
+		261EB16728294EAF00EF8ABF /* CustomerInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB16628294EAF00EF8ABF /* CustomerInfoViewModel.swift */; };
+		261EB16A2829545200EF8ABF /* MoneyboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1682829545200EF8ABF /* MoneyboxTableViewCell.swift */; };
+		261EB16B2829545200EF8ABF /* MoneyboxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261EB1692829545200EF8ABF /* MoneyboxTableViewCell.xib */; };
+		261EB16D282958AB00EF8ABF /* MoneyboxCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB16C282958AB00EF8ABF /* MoneyboxCellViewModel.swift */; };
+		261EB16F2829591200EF8ABF /* Moneybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB16E2829591200EF8ABF /* Moneybox.swift */; };
+		261EB1732829A02E00EF8ABF /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1722829A02E00EF8ABF /* AccountViewController.swift */; };
+		261EB1752829A06700EF8ABF /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1742829A06700EF8ABF /* AccountViewModel.swift */; };
+		261EB1782829A16900EF8ABF /* MoneyboxListContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1772829A16900EF8ABF /* MoneyboxListContext.swift */; };
+		261EB17A2829A21800EF8ABF /* MoneyboxList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1792829A21800EF8ABF /* MoneyboxList.swift */; };
+		261EB17D2829A38D00EF8ABF /* MoneyboxListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB17C2829A38D00EF8ABF /* MoneyboxListRequest.swift */; };
+		261EB17F2829C94400EF8ABF /* AccountDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB17E2829C94400EF8ABF /* AccountDestination.swift */; };
+		261EB1822829E2D600EF8ABF /* CustomerInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB1802829E2D500EF8ABF /* CustomerInfoTableViewCell.swift */; };
+		261EB1832829E2D600EF8ABF /* CustomerInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261EB1812829E2D500EF8ABF /* CustomerInfoTableViewCell.xib */; };
+		261EB1852829E72A00EF8ABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261EB1842829E72A00EF8ABF /* Main.storyboard */; };
 		26AC34D52826686B0050CE11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC34D42826686B0050CE11 /* AppDelegate.swift */; };
-		26AC34D72826686B0050CE11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC34D62826686B0050CE11 /* SceneDelegate.swift */; };
-		26AC34D92826686B0050CE11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC34D82826686B0050CE11 /* ViewController.swift */; };
-		26AC34DC2826686B0050CE11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AC34DA2826686B0050CE11 /* Main.storyboard */; };
 		26AC34DE2826686C0050CE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AC34DD2826686C0050CE11 /* Assets.xcassets */; };
 		26AC34E12826686C0050CE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AC34DF2826686C0050CE11 /* LaunchScreen.storyboard */; };
 		26AC34EC2826686D0050CE11 /* MoneyboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC34EB2826686D0050CE11 /* MoneyboxTests.swift */; };
 		26AC34F62826686D0050CE11 /* MoneyboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC34F52826686D0050CE11 /* MoneyboxUITests.swift */; };
 		26AC34F82826686D0050CE11 /* MoneyboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC34F72826686D0050CE11 /* MoneyboxUITestsLaunchTests.swift */; };
+		26AC350E282678070050CE11 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC350D282678070050CE11 /* AppRouter.swift */; };
+		26AC351D28268BDF0050CE11 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC351C28268BDF0050CE11 /* UIViewController+Additions.swift */; };
+		26AC35222826960E0050CE11 /* Initialisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC35212826960E0050CE11 /* Initialisation.swift */; };
+		26AC352528269C110050CE11 /* Hopoate in Frameworks */ = {isa = PBXBuildFile; productRef = 26AC352428269C110050CE11 /* Hopoate */; };
+		26AC352D28269C4C0050CE11 /* Fetch in Frameworks */ = {isa = PBXBuildFile; productRef = 26AC352C28269C4C0050CE11 /* Fetch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +76,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261EB1162826A11100EF8ABF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		261EB1182826A14A00EF8ABF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		261EB11B2826B26400EF8ABF /* Property+StringValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Property+StringValue.swift"; sourceTree = "<group>"; };
+		261EB11F2826BBD000EF8ABF /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		261EB1222826BFDD00EF8ABF /* AuthCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCredential.swift; sourceTree = "<group>"; };
+		261EB1252826C33800EF8ABF /* UserManagingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagingDelegate.swift; sourceTree = "<group>"; };
+		261EB12728270CAA00EF8ABF /* Authorising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorising.swift; sourceTree = "<group>"; };
+		261EB12928270D0600EF8ABF /* OAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthService.swift; sourceTree = "<group>"; };
+		261EB12B28270F8D00EF8ABF /* TokenRequestCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequestCredential.swift; sourceTree = "<group>"; };
+		261EB13128272A3D00EF8ABF /* TokenContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContext.swift; sourceTree = "<group>"; };
+		261EB13528272C5300EF8ABF /* TokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequest.swift; sourceTree = "<group>"; };
+		261EB13728272F7A00EF8ABF /* AuthHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaders.swift; sourceTree = "<group>"; };
+		261EB139282730A900EF8ABF /* StandardHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHeaders.swift; sourceTree = "<group>"; };
+		261EB13B2827CC8200EF8ABF /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		261EB13D2827CCB100EF8ABF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		261EB1402827CD4D00EF8ABF /* PathCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathCombine.swift; sourceTree = "<group>"; };
+		261EB14C282805EE00EF8ABF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		261EB14E2828222800EF8ABF /* String+RegexChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RegexChecking.swift"; sourceTree = "<group>"; };
+		261EB151282823C100EF8ABF /* NSRegularExpression+Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Matches.swift"; sourceTree = "<group>"; };
+		261EB1542828246800EF8ABF /* AppRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRegex.swift; sourceTree = "<group>"; };
+		261EB1582829174A00EF8ABF /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		261EB15A282924D900EF8ABF /* CustomerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetails.swift; sourceTree = "<group>"; };
+		261EB16628294EAF00EF8ABF /* CustomerInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoViewModel.swift; sourceTree = "<group>"; };
+		261EB1682829545200EF8ABF /* MoneyboxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxTableViewCell.swift; sourceTree = "<group>"; };
+		261EB1692829545200EF8ABF /* MoneyboxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyboxTableViewCell.xib; sourceTree = "<group>"; };
+		261EB16C282958AB00EF8ABF /* MoneyboxCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxCellViewModel.swift; sourceTree = "<group>"; };
+		261EB16E2829591200EF8ABF /* Moneybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneybox.swift; sourceTree = "<group>"; };
+		261EB1722829A02E00EF8ABF /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		261EB1742829A06700EF8ABF /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		261EB1772829A16900EF8ABF /* MoneyboxListContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxListContext.swift; sourceTree = "<group>"; };
+		261EB1792829A21800EF8ABF /* MoneyboxList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxList.swift; sourceTree = "<group>"; };
+		261EB17C2829A38D00EF8ABF /* MoneyboxListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxListRequest.swift; sourceTree = "<group>"; };
+		261EB17E2829C94400EF8ABF /* AccountDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDestination.swift; sourceTree = "<group>"; };
+		261EB1802829E2D500EF8ABF /* CustomerInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoTableViewCell.swift; sourceTree = "<group>"; };
+		261EB1812829E2D500EF8ABF /* CustomerInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerInfoTableViewCell.xib; sourceTree = "<group>"; };
+		261EB1842829E72A00EF8ABF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		26AC34D12826686B0050CE11 /* Moneybox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moneybox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AC34D42826686B0050CE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26AC34D62826686B0050CE11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26AC34D82826686B0050CE11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26AC34DB2826686B0050CE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26AC34DD2826686C0050CE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AC34E02826686C0050CE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AC34E22826686C0050CE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +122,9 @@
 		26AC34F12826686D0050CE11 /* MoneyboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AC34F52826686D0050CE11 /* MoneyboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxUITests.swift; sourceTree = "<group>"; };
 		26AC34F72826686D0050CE11 /* MoneyboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26AC350D282678070050CE11 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		26AC351C28268BDF0050CE11 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		26AC35212826960E0050CE11 /* Initialisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialisation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +132,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26AC352528269C110050CE11 /* Hopoate in Frameworks */,
+				26AC352D28269C4C0050CE11 /* Fetch in Frameworks */,
+				261EB11228269CC300EF8ABF /* Bond in Frameworks */,
+				261EB11528269D8E00EF8ABF /* Router in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +156,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261EB11A2826B24A00EF8ABF /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				261EB11B2826B26400EF8ABF /* Property+StringValue.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		261EB11D2826BBAC00EF8ABF /* Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1762829A14F00EF8ABF /* Moneybox */,
+				261EB12F28272A1300EF8ABF /* Token */,
+				261EB11E2826BBB600EF8ABF /* Account */,
+			);
+			path = Contexts;
+			sourceTree = "<group>";
+		};
+		261EB11E2826BBB600EF8ABF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1242826C31800EF8ABF /* User manager */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		261EB1212826BFA800EF8ABF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1222826BFDD00EF8ABF /* AuthCredential.swift */,
+				261EB12728270CAA00EF8ABF /* Authorising.swift */,
+				261EB12928270D0600EF8ABF /* OAuthService.swift */,
+				261EB12B28270F8D00EF8ABF /* TokenRequestCredential.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		261EB1242826C31800EF8ABF /* User manager */ = {
+			isa = PBXGroup;
+			children = (
+				261EB11F2826BBD000EF8ABF /* UserManager.swift */,
+				261EB1252826C33800EF8ABF /* UserManagingDelegate.swift */,
+			);
+			path = "User manager";
+			sourceTree = "<group>";
+		};
+		261EB12F28272A1300EF8ABF /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				261EB13128272A3D00EF8ABF /* TokenContext.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		261EB13328272C1C00EF8ABF /* Network requests */ = {
+			isa = PBXGroup;
+			children = (
+				261EB17B2829A37D00EF8ABF /* Moneybox */,
+				261EB13428272C3700EF8ABF /* Token */,
+				261EB13D2827CCB100EF8ABF /* API.swift */,
+			);
+			path = "Network requests";
+			sourceTree = "<group>";
+		};
+		261EB13428272C3700EF8ABF /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				261EB13528272C5300EF8ABF /* TokenRequest.swift */,
+				261EB13728272F7A00EF8ABF /* AuthHeaders.swift */,
+				261EB139282730A900EF8ABF /* StandardHeaders.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		261EB13F2827CD3200EF8ABF /* String */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1402827CD4D00EF8ABF /* PathCombine.swift */,
+				261EB14E2828222800EF8ABF /* String+RegexChecking.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		261EB1442827E75100EF8ABF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				261EB11D2826BBAC00EF8ABF /* Contexts */,
+				261EB13328272C1C00EF8ABF /* Network requests */,
+				261EB1212826BFA800EF8ABF /* Auth */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		261EB1502828238100EF8ABF /* NSRegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				261EB151282823C100EF8ABF /* NSRegularExpression+Matches.swift */,
+			);
+			path = NSRegularExpression;
+			sourceTree = "<group>";
+		};
+		261EB1532828243400EF8ABF /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				261EB13B2827CC8200EF8ABF /* AppEnvironment.swift */,
+				261EB1542828246800EF8ABF /* AppRegex.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		261EB1702829651F00EF8ABF /* Customer info header */ = {
+			isa = PBXGroup;
+			children = (
+				261EB16628294EAF00EF8ABF /* CustomerInfoViewModel.swift */,
+				261EB1802829E2D500EF8ABF /* CustomerInfoTableViewCell.swift */,
+				261EB1812829E2D500EF8ABF /* CustomerInfoTableViewCell.xib */,
+			);
+			path = "Customer info header";
+			sourceTree = "<group>";
+		};
+		261EB1712829659900EF8ABF /* Moneybox cell */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1682829545200EF8ABF /* MoneyboxTableViewCell.swift */,
+				261EB1692829545200EF8ABF /* MoneyboxTableViewCell.xib */,
+				261EB16C282958AB00EF8ABF /* MoneyboxCellViewModel.swift */,
+			);
+			path = "Moneybox cell";
+			sourceTree = "<group>";
+		};
+		261EB1762829A14F00EF8ABF /* Moneybox */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1772829A16900EF8ABF /* MoneyboxListContext.swift */,
+			);
+			path = Moneybox;
+			sourceTree = "<group>";
+		};
+		261EB17B2829A37D00EF8ABF /* Moneybox */ = {
+			isa = PBXGroup;
+			children = (
+				261EB17C2829A38D00EF8ABF /* MoneyboxListRequest.swift */,
+			);
+			path = Moneybox;
+			sourceTree = "<group>";
+		};
 		26AC34C82826686B0050CE11 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +325,19 @@
 		26AC34D32826686B0050CE11 /* Moneybox */ = {
 			isa = PBXGroup;
 			children = (
+				261EB1532828243400EF8ABF /* Configurations */,
+				26AC351928268B7E0050CE11 /* Models */,
+				26AC351E28268D7A0050CE11 /* Navigation */,
+				26AC350B28266C0B0050CE11 /* Routing */,
+				26AC351828267C9A0050CE11 /* Moneybox Details Page */,
+				26AC351728267C8A0050CE11 /* Account */,
+				26AC350428266A140050CE11 /* Login */,
 				26AC34D42826686B0050CE11 /* AppDelegate.swift */,
-				26AC34D62826686B0050CE11 /* SceneDelegate.swift */,
-				26AC34D82826686B0050CE11 /* ViewController.swift */,
-				26AC34DA2826686B0050CE11 /* Main.storyboard */,
 				26AC34DD2826686C0050CE11 /* Assets.xcassets */,
 				26AC34DF2826686C0050CE11 /* LaunchScreen.storyboard */,
 				26AC34E22826686C0050CE11 /* Info.plist */,
+				26AC35212826960E0050CE11 /* Initialisation.swift */,
+				261EB1842829E72A00EF8ABF /* Main.storyboard */,
 			);
 			path = Moneybox;
 			sourceTree = "<group>";
@@ -127,6 +359,90 @@
 			path = MoneyboxUITests;
 			sourceTree = "<group>";
 		};
+		26AC350428266A140050CE11 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1162826A11100EF8ABF /* LoginViewController.swift */,
+				261EB1182826A14A00EF8ABF /* LoginViewModel.swift */,
+				261EB14C282805EE00EF8ABF /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		26AC350B28266C0B0050CE11 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				26AC350C28266C190050CE11 /* Router */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		26AC350C28266C190050CE11 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				26AC350D282678070050CE11 /* AppRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		26AC351728267C8A0050CE11 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1712829659900EF8ABF /* Moneybox cell */,
+				261EB1702829651F00EF8ABF /* Customer info header */,
+				261EB1722829A02E00EF8ABF /* AccountViewController.swift */,
+				261EB1742829A06700EF8ABF /* AccountViewModel.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		26AC351828267C9A0050CE11 /* Moneybox Details Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Moneybox Details Page";
+			sourceTree = "<group>";
+		};
+		26AC351928268B7E0050CE11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1442827E75100EF8ABF /* Networking */,
+				26AC351A28268B930050CE11 /* Extensions */,
+				261EB1792829A21800EF8ABF /* MoneyboxList.swift */,
+				261EB1582829174A00EF8ABF /* Customer.swift */,
+				261EB15A282924D900EF8ABF /* CustomerDetails.swift */,
+				261EB16E2829591200EF8ABF /* Moneybox.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26AC351A28268B930050CE11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				261EB1502828238100EF8ABF /* NSRegularExpression */,
+				261EB13F2827CD3200EF8ABF /* String */,
+				261EB11A2826B24A00EF8ABF /* Property */,
+				26AC351B28268BB40050CE11 /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		26AC351B28268BB40050CE11 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26AC351C28268BDF0050CE11 /* UIViewController+Additions.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		26AC351E28268D7A0050CE11 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				261EB17E2829C94400EF8ABF /* AccountDestination.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +459,12 @@
 			dependencies = (
 			);
 			name = Moneybox;
+			packageProductDependencies = (
+				26AC352428269C110050CE11 /* Hopoate */,
+				26AC352C28269C4C0050CE11 /* Fetch */,
+				261EB11128269CC300EF8ABF /* Bond */,
+				261EB11428269D8E00EF8ABF /* Router */,
+			);
 			productName = Moneybox;
 			productReference = 26AC34D12826686B0050CE11 /* Moneybox.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +537,12 @@
 				Base,
 			);
 			mainGroup = 26AC34C82826686B0050CE11;
+			packageReferences = (
+				26AC352328269C110050CE11 /* XCRemoteSwiftPackageReference "hopoate" */,
+				26AC352B28269C4C0050CE11 /* XCRemoteSwiftPackageReference "Fetch" */,
+				261EB11028269CC300EF8ABF /* XCRemoteSwiftPackageReference "Bond" */,
+				261EB11328269D8E00EF8ABF /* XCRemoteSwiftPackageReference "Router" */,
+			);
 			productRefGroup = 26AC34D22826686B0050CE11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +559,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261EB14D282805EE00EF8ABF /* LoginViewController.xib in Resources */,
 				26AC34E12826686C0050CE11 /* LaunchScreen.storyboard in Resources */,
+				261EB1832829E2D600EF8ABF /* CustomerInfoTableViewCell.xib in Resources */,
+				261EB1852829E72A00EF8ABF /* Main.storyboard in Resources */,
 				26AC34DE2826686C0050CE11 /* Assets.xcassets in Resources */,
-				26AC34DC2826686B0050CE11 /* Main.storyboard in Resources */,
+				261EB16B2829545200EF8ABF /* MoneyboxTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +589,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AC34D92826686B0050CE11 /* ViewController.swift in Sources */,
+				26AC35222826960E0050CE11 /* Initialisation.swift in Sources */,
+				261EB1752829A06700EF8ABF /* AccountViewModel.swift in Sources */,
+				26AC350E282678070050CE11 /* AppRouter.swift in Sources */,
+				261EB13A282730A900EF8ABF /* StandardHeaders.swift in Sources */,
+				261EB16A2829545200EF8ABF /* MoneyboxTableViewCell.swift in Sources */,
+				261EB1232826BFDD00EF8ABF /* AuthCredential.swift in Sources */,
+				261EB14F2828222800EF8ABF /* String+RegexChecking.swift in Sources */,
+				261EB1732829A02E00EF8ABF /* AccountViewController.swift in Sources */,
+				261EB152282823C100EF8ABF /* NSRegularExpression+Matches.swift in Sources */,
+				261EB1172826A11100EF8ABF /* LoginViewController.swift in Sources */,
+				261EB17D2829A38D00EF8ABF /* MoneyboxListRequest.swift in Sources */,
 				26AC34D52826686B0050CE11 /* AppDelegate.swift in Sources */,
-				26AC34D72826686B0050CE11 /* SceneDelegate.swift in Sources */,
+				261EB12828270CAA00EF8ABF /* Authorising.swift in Sources */,
+				261EB1782829A16900EF8ABF /* MoneyboxListContext.swift in Sources */,
+				261EB17F2829C94400EF8ABF /* AccountDestination.swift in Sources */,
+				26AC351D28268BDF0050CE11 /* UIViewController+Additions.swift in Sources */,
+				261EB15B282924D900EF8ABF /* CustomerDetails.swift in Sources */,
+				261EB11C2826B26400EF8ABF /* Property+StringValue.swift in Sources */,
+				261EB13828272F7A00EF8ABF /* AuthHeaders.swift in Sources */,
+				261EB1202826BBD000EF8ABF /* UserManager.swift in Sources */,
+				261EB1412827CD4D00EF8ABF /* PathCombine.swift in Sources */,
+				261EB16D282958AB00EF8ABF /* MoneyboxCellViewModel.swift in Sources */,
+				261EB13628272C5300EF8ABF /* TokenRequest.swift in Sources */,
+				261EB13E2827CCB100EF8ABF /* API.swift in Sources */,
+				261EB17A2829A21800EF8ABF /* MoneyboxList.swift in Sources */,
+				261EB12C28270F8D00EF8ABF /* TokenRequestCredential.swift in Sources */,
+				261EB1552828246800EF8ABF /* AppRegex.swift in Sources */,
+				261EB16728294EAF00EF8ABF /* CustomerInfoViewModel.swift in Sources */,
+				261EB12A28270D0600EF8ABF /* OAuthService.swift in Sources */,
+				261EB13228272A3D00EF8ABF /* TokenContext.swift in Sources */,
+				261EB1262826C33800EF8ABF /* UserManagingDelegate.swift in Sources */,
+				261EB1822829E2D600EF8ABF /* CustomerInfoTableViewCell.swift in Sources */,
+				261EB1592829174A00EF8ABF /* Customer.swift in Sources */,
+				261EB1192826A14A00EF8ABF /* LoginViewModel.swift in Sources */,
+				261EB16F2829591200EF8ABF /* Moneybox.swift in Sources */,
+				261EB13C2827CC8200EF8ABF /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +661,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26AC34DA2826686B0050CE11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26AC34DB2826686B0050CE11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		26AC34DF2826686C0050CE11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,6 +803,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +832,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,6 +962,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		261EB11028269CC300EF8ABF /* XCRemoteSwiftPackageReference "Bond" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DeclarativeHub/Bond";
+			requirement = {
+				kind = exactVersion;
+				version = 7.8.1;
+			};
+		};
+		261EB11328269D8E00EF8ABF /* XCRemoteSwiftPackageReference "Router" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dhardiman/Router";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.1;
+			};
+		};
+		26AC352328269C110050CE11 /* XCRemoteSwiftPackageReference "hopoate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darjeelingsteve/hopoate";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.1;
+			};
+		};
+		26AC352B28269C4C0050CE11 /* XCRemoteSwiftPackageReference "Fetch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dhardiman/Fetch";
+			requirement = {
+				kind = exactVersion;
+				version = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		261EB11128269CC300EF8ABF /* Bond */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 261EB11028269CC300EF8ABF /* XCRemoteSwiftPackageReference "Bond" */;
+			productName = Bond;
+		};
+		261EB11428269D8E00EF8ABF /* Router */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 261EB11328269D8E00EF8ABF /* XCRemoteSwiftPackageReference "Router" */;
+			productName = Router;
+		};
+		26AC352428269C110050CE11 /* Hopoate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26AC352328269C110050CE11 /* XCRemoteSwiftPackageReference "hopoate" */;
+			productName = Hopoate;
+		};
+		26AC352C28269C4C0050CE11 /* Fetch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26AC352B28269C4C0050CE11 /* XCRemoteSwiftPackageReference "Fetch" */;
+			productName = Fetch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 26AC34C92826686B0050CE11 /* Project object */;
 }
